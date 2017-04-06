@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<barangkriminal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quiz.xsd">
+	<barang>
+		<kode>QS-9345-SW</kode>
+		<deskripsi>Windows 10 full crack</deskripsi>
+		<harga>5000.500</harga>
+	</barang>
+	<barang>
+		<kode>AA-1234-GG</kode>
+		<deskripsi>Windows 8 full crack</deskripsi>
+		<harga>5000</harga>
+	</barang>
+	<barang>
+		<kode>AA-7890-GG</kode>
+		<deskripsi>Ms Office full crack</deskripsi>
+		<harga>2250.500</harga>
+	</barang>
+</barangkriminal>
