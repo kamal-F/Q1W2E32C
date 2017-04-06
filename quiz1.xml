@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<barang xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quiz.xsd">
+  <kode>NCName</kode>
+  <deskripsi>deskripsi</deskripsi>
+  <harga>0.0</harga>
+</barang>

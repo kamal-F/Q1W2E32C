@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="barangkriminal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="barang"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="barang">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="kode"/>
+                <xs:element ref="deskripsi"/>
+                <xs:element ref="harga"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="kode">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:NCName">
+    			<xs:pattern
+    				value="([A-Z]{2}-[0-9]{4}-[A-Z]{2})">
+    			</xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="deskripsi" type="xs:string"/>
+    <xs:element name="harga" type="xs:double"/>
+</xs:schema>
